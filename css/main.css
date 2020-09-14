@@ -134,9 +134,19 @@
     /*CIERRE GLOBALES*/
     /*HEADER*/
     
+    @media (min-width: 768px) {
+        .hero {
+            background-image: url(../img/encabezado.jpg);
+            height: 90vh;
+            /*<--Para que imagen ocupe alto de ventana 100%-- Sin Scroll 90vh*/
+            background-position: top center;
+            background-size: cover;
+        }
+    }
+    
     .hero {
         background-image: url(../img/encabezado.jpg);
-        height: 90vh;
+        height: 70vh;
         /*<--Para que imagen ocupe alto de ventana 100%-- Sin Scroll 90vh*/
         background-position: top center;
         background-size: cover;
@@ -165,38 +175,45 @@
     .redes-sociales a:last-of-type {
         margin-right: 0;
     }
-    
-    @media (min-width: 768px) {
-        .informacion-evento {
-            width: 70%;
-            margin: 0 auto;
-            margin-top: 50px;
-        }
-    }
+    /*Cierre Redes Sociales*/
+    /*Info Evento*/
     
     .informacion-evento {
         text-align: center;
         color: white;
+        margin: 20px 5px;
+    }
+    
+    @media (min-width: 768px) {
+        .informacion-evento {
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 50px;
+            text-align: center;
+        }
     }
     
     .informacion-evento p {
         margin: 0;
         display: inline;
-        font-size: 20px;
-        text-transform: uppercase;
     }
     
     .informacion-evento i {
         color: #fe4918;
         font-size: 2.4rem;
+        margin-right: 2px;
     }
     
     .fecha {
         float: left;
+        font-size: 20px;
+        text-transform: uppercase;
     }
     
     .ciudad {
         float: right;
+        font-size: 20px;
+        text-transform: uppercase;
     }
     
     .nombre-sitio {
@@ -206,19 +223,15 @@
     
     @media (min-width: 768px) {
         .nombre-sitio {
-            font-size: 11.5vw;
+            font-size: 10vw;
             font-family: 'PT Sans', sans-serif;
-            margin: 0;
+            margin: 0 90px;
             line-height: 1;
         }
     }
     
     .slogan {
-        text-transform: none !important;
-    }
-    
-    .slogan span {
-        font-weight: bold;
+        font-size: 30px;
     }
     /*BARRA*/
     
