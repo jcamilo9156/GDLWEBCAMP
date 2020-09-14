@@ -217,8 +217,9 @@
     }
     
     .nombre-sitio {
-        font-size: 5.9vw;
+        font-size: 15vw;
         font-family: 'PT Sans', sans-serif;
+        margin: 0
     }
     
     @media (min-width: 768px) {
